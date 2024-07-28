@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    max-width: 1440px;
+    max-height: 641px;
+    height: 641px;
+}
+
+.BackGround {
+    display: block;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 1440px;
+    max-height: 641px;
+    height: 575px;
+    width: 325px;
+    border-radius: 13px;
+    box-shadow: 20px 20px 15px hsl(215, 57%, 8%);
+}
+
+figure{
+    transition: ease-in 1s;
+}
+
+.Img {
+    background-size: cover;
+    border-radius: 10px;
+    margin: 25px;
+    width: 275px;
+    height: 275px;
+}
+
+.View{
+    position: relative;
+    left: 115px;
+    top: 115px;
+}
+
+.Filter{
+    display: none;
+    background-color: hsl(178, 100%, 50%);
+    width: 275px;
+    height: 275px;
+}
+
+
+.Title {
+    transition: ease-in 0.5s;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.Description {
+    word-wrap: break-word;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin: 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+.Info {
+    margin-bottom: 25px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    display: flex;
+}
+
+.Ethereum {
+    margin-left: 25px;
+}
+
+.Clock {
+    margin-left: 90px;
+}
+
+
+.Value {
+    margin-left: 5px;
+    color: hsl(178, 100%, 50%);
+}
+
+.Time {
+    margin-left: 5px;
+    margin-right: 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+.Line {
+    margin: 0px 25px 15px 25px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.Credits {
+    display: flex;
+}
+
+.Credits p {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+.Avatar {
+    margin-left: 25px;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.Creator {
+    margin: 10px 5px 25px 15px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.Author {
+    margin: 10px 25px 25px 2px;
+    font-weight: 400;
+    color: white;
+    transition: ease-in 0.5s;
+}
+
+.Author:hover {
+    transition: ease-in 0.5s;
+    cursor: pointer;
+    color: hsl(215, 51%, 70%);
+}
+
+.Title:hover {
+    transition: ease-in 0.5s;
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+figure:hover .Filter{
+    cursor: pointer;
+    transition: ease-in 1s;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    bottom: 309px;
+    left: 546px;
+    background-color: hsla(178, 100%, 50%, 0.379);
+    width: 275px;
+    height: 275px;
+}
+
+footer{
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    position:relative; 
+    bottom:20px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    color:hsl(178, 100%, 50%) ;
+}
+
+footer .attribution, .attr{
+    color: hsl(215, 32%, 27%);
+    margin-left: 10px;
+}
